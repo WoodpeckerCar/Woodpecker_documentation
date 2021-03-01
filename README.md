@@ -1,7 +1,7 @@
-![repo image](img/woodpecker.png)
-# Woodpecker open source electric vehicle platform with negative carbon footprint.
+
+## Woodpecker open source electric vehicle platform with negative carbon footprint.
 https://woodpeck.org/ 
-## Design documentation and Operating Manual of Drive by wire systems
+### Design documentation and Operating Manual of Drive by wire systems
 
 # Operation
 There are following operating modes: manual, wireless, remote and autonomous. 
