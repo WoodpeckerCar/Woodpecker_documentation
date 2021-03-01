@@ -1,9 +1,9 @@
 ![repo image](img/woodpecker.png)
-#Woodpecker open source electric vehicle platform with negative carbon footprint.
+# Woodpecker open source electric vehicle platform with negative carbon footprint.
 https://woodpeck.org/ 
-##Design documentation and Operating Manual of Drive by wire systems
+## Design documentation and Operating Manual of Drive by wire systems
 
-#Operation
+# Operation
 There are following operating modes: manual, wireless, remote and autonomous. 
 All mechanical actuators - steering, brakes and accelerator are managed by electronic controllers / signals.
 
@@ -12,7 +12,7 @@ All mechanical actuators - steering, brakes and accelerator are managed by elect
 - **Remote**      Vehicle operation in BVLOS - Beyond Visual Line of Sight- mode by remote operator through Internet connection.
 - **Autonomous**  Vehicle operated by on board autonomous driving system.
 
-#Manual mode
+# Manual mode
 ## Switching ON Manual mode
 
 1. Switch Power ON switch (power up brake and EPAS )on front panel. Red signal light must light on. 
@@ -56,7 +56,7 @@ Use PASSIVE Emergency stop in both cases, ACTIVE (if implemented) if vehicle is 
 7. Turn on DBW controllers in armed state by SE switch
 8. Use joystick controls to drive, steer, brake, accelerate and switch between FRW and REV (SG switch).
 
-##Emergency stop.
+## Emergency stop.
 
 PASSIVE Emergency stop 
 1. Push any of 5 Emergency mushroom switches to disable motors
@@ -65,21 +65,21 @@ PASSIVE Emergency stop
 - Vehicle is static vs Vehicle is moving
 Use PASSIVE Emergency stop in both cases, ACTIVE (if implemented) if vehicle is moving.
 
-##Switching OFF Wireless mode
+## Switching OFF Wireless mode
 
 1. Switch all switches on OOFF state on remote or switch Remote OFF.
 3. Switch off "Ignition OFF 72V" on front panel and "Lights OFF" switches.
 
 
-#Remote mode
-##Switching ON Remote mode
+# Remote mode
+## Switching ON Remote mode
 
 1. Switch Power ON switch (power up brake and EPAS )on front panel. Red signal light must light on. 
 2. Make sure "Remote control override" switch is ON (disable need for radio controller signal)
 3. Switch on "Lights ON" switch on front panel (power up all CAN controllers and Joystick micro computer (REMOTE CONTROL GATEWAY).
 4. Use REMOTE CONTROL GATEWAY UDP-CAN conversion controls to drive, steer, brake, accelerate and switch between FRW and REV (SG switch).
 
-##Emergency stop.
+## Emergency stop.
 
 PASSIVE Emergency stop 
 1. Push any of 5 Emergency mushroom switches to disable motors
@@ -91,13 +91,13 @@ Use PASSIVE Emergency stop in both cases, ACTIVE (if implemented) if vehicle is 
 On vehicle Operator -
 OFF vehicle Operator -
 
-##Switching OFF Remote mode
+## Switching OFF Remote mode
 
 1. Remotely switch OFF REMOTE CONTROL GATEWAY.
 3. Switch off "Ignition OFF 72V" on front panel and "Lights OFF" switches.
 
 
-##Mode Overrides 
+## Mode Overrides 
 
 ### From manual to remote
 TBD
@@ -105,7 +105,7 @@ TBD
 ### From remote to manual
 TBD
 
-#Main DbW components.
+# Main DbW components.
 
 Drive By Wire system consists from:
 
@@ -150,7 +150,7 @@ User: XXX
 Password: XXX
 ```
 
-#CAN buses
+# CAN buses
 There are 2 CAN buses on vehicle. Both are connected with CAN Gateway module. DbW CAN screw terminal is located in side of the glow box compartment.
 
 1. DbW CAN bus. - 500k
@@ -161,10 +161,10 @@ Connected devices: CAN GW, Brake controller, Accelerator controller, Control Pro
 
 Connected devices: Motor Controllers , CAN GW
 
-#Controls
+# Controls
 
 
-##Joystick operation
+## Joystick operation
 
 ```
 START - Enable controls
