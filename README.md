@@ -13,7 +13,7 @@ All mechanical actuators - steering, brakes and accelerator are managed by elect
 - **Autonomous**  Vehicle operated by on board autonomous driving system.
 
 #Manual mode
-##Switching ON Manual mode
+## Switching ON Manual mode
 
 1. Switch Power ON switch (power up brake and EPAS )on front panel. Red signal light must light on. 
 2. Make sure "Remote control override" switch is ON (disable need for radio controller signal)
@@ -24,7 +24,7 @@ All mechanical actuators - steering, brakes and accelerator are managed by elect
 7. Press Y to switch on ignition. Wait for 2-3 sec.switch on Motor controllers;
 8. Use joystick controls to drive, steer, brake, accelerate and switch between FRW and REV.
 
-##Emergency stop.
+## Emergency stop.
 - Active (electrical power available for dbw systems) vs Passive (total power failure) 
 [Future feature]PASSIVE emergency stop (spring based motor clutch) which is engaged automatically, in case of total power loss.
 
@@ -38,14 +38,14 @@ Use PASSIVE Emergency stop in both cases, ACTIVE (if implemented) if vehicle is 
 1. Operator is in the vehicle or next to it.
 2. Operator is not in vehicle, but in VLOS - visual line of sight
 
-##Switching OFF Manual mode
+## Switching OFF Manual mode
 
 1. Press X to turn ignition OFF.
 2. Press BACK to disable controls
 3. Switch off "Ignition OFF 72V" on front panel.
 
-#Wireless mode
-##Switching ON Wireless mode
+# Wireless mode
+## Switching ON Wireless mode
 
 1. Switch Power ON switch (power up brake and EPAS )on front panel. Red signal light must light on. 
 2. Make sure "Remote control override" switch is OFF (disable need for radio controller signal)
