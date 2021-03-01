@@ -26,6 +26,7 @@ All mechanical actuators - steering, brakes and accelerator are managed by elect
 
 ## Emergency stop.
 - Active (electrical power available for dbw systems) vs Passive (total power failure) 
+
 [Future feature]PASSIVE emergency stop (spring based motor clutch) which is engaged automatically, in case of total power loss.
 
 PASSIVE Emergency stop 
@@ -33,6 +34,7 @@ PASSIVE Emergency stop
 2. Press brake on joystick controller
 
 - Vehicle is static vs Vehicle is moving
+
 Use PASSIVE Emergency stop in both cases, ACTIVE (if implemented) if vehicle is moving.
 
 1. Operator is in the vehicle or next to it.
@@ -86,6 +88,7 @@ PASSIVE Emergency stop
 2. Remotely Switch OFF REMOTE CONTROL GATEWAY - all controls should switch to OFF state
 
 - Vehicle is static vs Vehicle is moving
+
 Use PASSIVE Emergency stop in both cases, ACTIVE (if implemented) if vehicle is moving.
 
 On vehicle Operator -
